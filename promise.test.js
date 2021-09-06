@@ -5,3 +5,7 @@ test('promise function returns correct value', () => {
         expect(data).toBe('completed');
     });
 });
+
+test('promise function assertion using resolves operator', () => {
+    return expect(promiseFunction()).resolves.toBe('completed');
+});
