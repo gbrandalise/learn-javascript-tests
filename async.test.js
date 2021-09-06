@@ -6,4 +6,4 @@ test('async function returns correct value', done => {
         done();
     }
     asyncFunction(callback);
-})
+});
