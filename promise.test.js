@@ -1,7 +1,7 @@
 const promiseFunction = require('./promise');
 
 test('promise function returns correct value', () => {
-    return promiseFunction(data => {
+    return promiseFunction().then(data => {
         expect(data).toBe('completed');
     });
 });
